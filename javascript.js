@@ -1,6 +1,6 @@
 const addBtn = document.querySelector("#addBtn")
 const main = document.querySelector("#main")
-addBtn.addEventListener(
+additionBtn.addEventListener(
     "click",
     function() {
         addNote()
@@ -32,7 +32,7 @@ const saveNotes = () => {
 // <textarea></textarea>
 // </div>
 
-const addNote = (text = "") => {
+const additionNote = (text = "") => {
     const note = document.createElement("div");
     note.classList.add("note")
     note.innerHTML = `
